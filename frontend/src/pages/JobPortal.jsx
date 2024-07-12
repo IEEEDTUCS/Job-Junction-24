@@ -1,6 +1,9 @@
 import React from 'react'
 import JobPortalContent from '../components/JobPortalContent'
 
+
+// This page is divided into NavBar and JobPortalContent
+
 const JobPortal = () => {
   return (
     <div>
