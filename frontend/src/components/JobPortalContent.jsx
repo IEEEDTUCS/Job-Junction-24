@@ -10,15 +10,17 @@ import JobDetail from './JobPortal.Contents/JobDetail'
 
 const JobPortalContent = () => {
   return (
-    <div className='bg-gray-100 py-3 pl-3'>
-      <div className="flex">
-        <Filters />
-        <SearchBar />
-        <UploadResume />
+    <div className='bg-gray-100 p-3 flex justify-between'>
+      <div>
+        <Filters/>
+        <JobList/>
       </div>
-      <div className="flex">
-        <JobList />
-        <JobDetail />
+      <div>
+        <div className='flex gap-4'>
+          <SearchBar/>
+          <UploadResume/>
+        </div>
+        <JobDetail/>
       </div>
     </div>
   )
