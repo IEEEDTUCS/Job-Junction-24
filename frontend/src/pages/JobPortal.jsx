@@ -8,7 +8,7 @@ const JobPortal = () => {
   return (
     <div>
       <div>NavBar</div> {/* NavBar component comes here */}
-      <JobPortalContent/>
+      <JobPortalContent className='box-border'/>
     </div>
   )
 }
