@@ -10,7 +10,7 @@ import JobDetail from './JobPortal.Contents/JobDetail'
 
 const JobPortalContent = () => {
   return (
-    <div className='bg-gray-100 p-6 flex gap-8 border-box'>
+    <div className='bg-gray-100 p-6 flex gap-8 border-box h-[90%]'>
       <div className='flex flex-col w-1/3'>
         <div className='mb-8'>
           <Filters />
