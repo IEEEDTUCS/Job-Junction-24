@@ -1,13 +1,14 @@
 import React from 'react'
 import JobPortalContent from '../components/JobPortalContent'
+import Navbar from '../components/Navbar'
 
 
 // This page is divided into NavBar and JobPortalContent
 
 const JobPortal = () => {
   return (
-    <div>
-      <div>NavBar</div> {/* NavBar component comes here */}
+    <div className='h-screen'>
+      <Navbar/>
       <JobPortalContent />
     </div>
   )
