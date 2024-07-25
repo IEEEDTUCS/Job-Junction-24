@@ -17,7 +17,7 @@ const JobPortalContent = () => {
         </div>
         <JobList />
       </div>
-      <div className='flex flex-col grow'>
+      <div className='flex flex-col w-2/3'>
         <div className='flex items-center justify-between gap-8 mb-8'>
           <SearchBar />
           <UploadResume />
