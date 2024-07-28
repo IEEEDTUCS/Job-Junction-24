@@ -1,6 +1,7 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import JobPortal from './pages/JobPortal'
+import JobPortalContent from './components/JobPortalContent'
+import LandingPage from './pages/LandingPage'
 import './App.css'
 
 function App() {
@@ -8,6 +9,9 @@ function App() {
 
   return (
     <>
+    {/* <JobPortal / */}
+    {/* <JobPortalContent /> */}
+    <LandingPage/>
 
     </>
   )
