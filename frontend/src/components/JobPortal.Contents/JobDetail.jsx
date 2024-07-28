@@ -3,8 +3,8 @@ import React from 'react'
 // Shows the complete details of one job post.
 const JobDetail = () => {
   return (
-    <div className='bg-white h-full p-6 rounded-md max-w-[100%]'>
-      <div style={{ border: '1px solid blue' }} className='flex justify-between pb-4'>
+    <div className='bg-white p-6 rounded-md max-w-full max-h-full overflow-scroll'>
+      <div className='flex justify-between pb-8'>
         <div className='flex gap-2'>
           <div>
             <img src='src/assets/company_logo.svg' className='w-16' />
@@ -18,7 +18,7 @@ const JobDetail = () => {
           <img src='src/assets/bookmark.svg' />
         </div>
       </div>
-      <div style={{ border: '1px solid blue' }} className='flex justify-between pb-4 text-[#6C6C6C] font-medium'>
+      <div className='flex justify-between pb-3 text-[#6C6C6C] font-medium'>
         <div className='w-[70%]'>
           <div className='text-xl text-green-600 font-medium pb-2'>Job Descriptions</div>
           <p className='text-sm overflow-clip'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
@@ -32,7 +32,7 @@ const JobDetail = () => {
           <div><span className='font-bold'>Experience:</span> Freshers</div>
         </div>
       </div>
-      <div style={{ border: '1px solid blue' }} className='pb-4 text-[#6C6C6C] font-medium'>
+      <div className='pb-6 text-[#6C6C6C] font-medium'>
         <div className='text-xl text-green-600 font-medium pb-3'>Skills</div>
         <div className='flex gap-4 text-xs'>
           <span className='py-2 px-3 bg-[#EFEFEF] rounded-md'>Ui Designer</span>
@@ -40,8 +40,7 @@ const JobDetail = () => {
           <span className='py-2 px-3 bg-[#EFEFEF] rounded-md'>Landing Page</span>
         </div>
       </div>
-      <div style={{ border: '1px solid blue' }} className='flex justify-between text-[#6C6C6C] font-medium
-      '>
+      <div className='flex justify-between text-[#6C6C6C] font-medium pb-10'>
         <div className='w-[70%]'>
           <div className='text-xl text-green-600 font-medium pb-3'>Requirements</div>
           <div className='text-sm'>
@@ -59,7 +58,20 @@ const JobDetail = () => {
           <div className='leading-5'>Match Score<br></br> with your resume</div>
         </div>
       </div>
-      <div style={{ border: '1px solid blue' }}></div>
+      <div className='flex justify-between items-center'>
+        <div className='flex p-3 gap-8 bg-[#EDEDED] text-[#6C6C6C] rounded-md'>
+          <div className='whitespace-nowrap'>https://www.linkedin.com/company/catoff/</div>
+          <img src="src/assets/copy_icon.svg" alt="Copy link to apply" />
+        </div>
+        <div className='flex gap-2 text-[#848484]'>
+          <img src="/src/assets/question_mark.svg" alt="" />
+          <span>Report a Problem ?</span>
+        </div>
+        <div className='flex gap-3 rounded-md text-white text-xl px-4 py-2 bg-green-600'>
+          <div>Apply Now on</div>
+          <img src="src/assets/linkedin.svg" alt="Apply with linkedin" />
+        </div>
+      </div>
     </div>
   )
 }
