@@ -1,12 +1,9 @@
-import JobPortal from './pages/JobPortal.jsx'
+import JobPortal from '/src/pages/JobPortal.jsx'
 
 function App() {
-
-
   return (
     <>
     <JobPortal/>
-
     </>
   )
 }

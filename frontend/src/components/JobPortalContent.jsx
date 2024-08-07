@@ -15,9 +15,12 @@ const JobPortalContent = () => {
         <div className='mb-8'>
           <Filters />
         </div>
-        <JobList />
+        <div className='max-w-full max-h-full overflow-scroll'>
+           {/*Map function here*/}
+          <JobList />    
+        </div>
       </div>
-      <div className='flex flex-col grow'>
+      <div className='flex flex-col w-2/3'>
         <div className='flex items-center justify-between gap-8 mb-8'>
           <SearchBar />
           <UploadResume />
