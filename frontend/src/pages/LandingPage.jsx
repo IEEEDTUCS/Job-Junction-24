@@ -27,7 +27,7 @@ export default function LandingPage(){
                 <div className="pb-3"  >
                     <div className="flex justify-between items-center lg:w-[700px] md:w-[526px] sm:w-[438px] p-5  bg-white rounded-lg shadow-2xl  " >
                         <img src="src/assets/SearchIcon.png" className="h-[30px] pr-4"></img>
-                        <input placeholder="Job title or keyword" className="w-[1000px] bg-transparent border-b border-[#D6DDEB] py-3"></input>
+                        <input placeholder="Job title or keyword" className="w-[1000px] bg-transparent border-b border-[#D6DDEB] py-3 px-2"></input>
                         <button className="bg-[#239852] text-white w-[500px] h-12 ">Search my job</button>
                     </div>
                 </div>
