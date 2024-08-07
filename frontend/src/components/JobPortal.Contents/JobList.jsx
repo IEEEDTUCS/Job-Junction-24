@@ -6,13 +6,13 @@ const JobList = () => {
   return (
     <div className='p-4 bg-white text-green-600 rounded-md border-2 border-green-600'>
       <div className='flex items-start pb-4'>
-        <img src='src/assets/company_logo.svg' className='w-32'/>
+        <img src='src/assets/company_logo.svg' className='w-28'/>
         <div className='px-4'>
           <div className='flex justify-between'>
             <span className='font-medium text-xl'>Software Developer</span>
             <span className='font-normal'>{'3 days'} ago</span>
           </div>
-          <p className='font-medium'>We are looking for figma designers who can help desiging the entire mobile application...</p>
+          <p className='font-medium text-sm'>We are looking for figma designers who can help desiging the entire mobile application...</p>
         </div>
         <img src='src/assets/bookmark.svg' className='w-12'/>
       </div>
