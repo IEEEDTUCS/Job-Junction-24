@@ -1,17 +1,11 @@
-import { useState } from 'react'
-import JobPortal from './pages/JobPortal'
-import JobPortalContent from './components/JobPortalContent'
-import LandingPage from './pages/LandingPage'
-import './App.css'
+import JobPortal from './pages/JobPortal.jsx'
 
 function App() {
 
 
   return (
     <>
-    {/* <JobPortal / */}
-    {/* <JobPortalContent /> */}
-    <LandingPage/>
+    <JobPortal/>
 
     </>
   )
