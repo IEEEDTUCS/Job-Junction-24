@@ -2,7 +2,7 @@ import React from 'react'
 
 const Navbar = () => {
     return (
-        <div className='flex justify-between items-center px-12 h-[10%] sticky top-0 bg-white'>
+        <div className='flex justify-between items-center px-12 h-[100px] sticky top-0 bg-white'>
             <div>
                 <img src='src/assets/job_recom_logo.png' />
             </div>
